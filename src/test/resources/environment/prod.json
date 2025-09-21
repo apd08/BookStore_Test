@@ -1,0 +1,6 @@
+{
+  "protocol": "https",
+  "domain": "demoqa.com/books",
+  "wait": 10,
+  "host": "https://the-internet.herokuapp.com/books"
+}
