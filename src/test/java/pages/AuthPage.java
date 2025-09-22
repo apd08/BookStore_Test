@@ -18,9 +18,6 @@ public class AuthPage extends Form {
     }
 
     public void sendData(String login, String password){
-        Object driver;
-//        ((JavascriptExecutor) AqualityServices.getBrowser().getDriver())
-//                .executeScript("arguments[0].scrollIntoView(true);", userName.getElement());
         userName.sendKeys(login);
         userPassword.sendKeys(password);
     }

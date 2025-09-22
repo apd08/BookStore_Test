@@ -1,9 +1,6 @@
 package tests;
 
 import aquality.selenium.browser.AqualityServices;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-//import pages.MainPage;
 import utils.SettingsTestData;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -15,7 +12,6 @@ import org.slf4j.LoggerFactory;
 
 public class BaseTest {
     private static final Logger logger = LoggerFactory.getLogger(BaseTest.class);
-//    protected final MainPage mainPage = new MainPage();
 
     @BeforeMethod
     public void setup() {
